@@ -1,3 +1,5 @@
+refers "https://slackapi.github.io/python-slackclient/"  
+  
 condadmin@DataLX01:~$ sudo pip install slackclient
 ~~~
 The directory '/home/condadmin/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
