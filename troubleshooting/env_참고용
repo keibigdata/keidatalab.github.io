@@ -1,7 +1,7 @@
 ### 기본 라이브러리 설치
-```
+~~~
 sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev
-```
+~~~
 
     
 ### Pyenv
@@ -14,18 +14,18 @@ pyenv의 기능은 github 홈페이지 README 문서에서 아래와 같이 소�
 * 동시에 여러 버전의 파이썬을 찾을 수 있다. tox 유틸리티와 결합하여 빌드 호환성 체크에 유용하다.  //
 
 #### 일반 설치
-```
+~~~
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
 echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
-```
+~~~
 
 #### 서버 설치 및 세팅
 
-```
+~~~
 git clone https://github.com/pyenv/pyenv.git /usr/share/.pyenv
-```
+~~~
 
 /etc/bash.bashrc에 추가
 ```
