@@ -225,3 +225,7 @@ Collecting parso==0.1.1 (from jedi>=0.10->ipython>=4.0.0->ipykernel->jupyter)
 Installing collected packages: ipython-genutils, traitlets, jupyter-core, jsonschema, nbformat, mistune, pandocfilters, testpath, webencodings, html5lib, bleach, pygments, entrypoints, nbconvert, tornado, parso, jedi, wcwidth, prompt-toolkit, pickleshare, simplegeneric, ipython, pyzmq, python-dateutil, jupyter-client, ipykernel, qtconsole, terminado, Send2Trash, notebook, widgetsnbextension, ipywidgets, jupyter-console, jupyter
 Successfully installed Send2Trash-1.5.0 bleach-2.1.3 entrypoints-0.2.3 html5lib-1.0.1 ipykernel-4.8.2 ipython-6.2.1 ipython-genutils-0.2.0 ipywidgets-7.1.2 jedi-0.11.1 jsonschema-2.6.0 jupyter-1.0.0 jupyter-client-5.2.2 jupyter-console-5.2.0 jupyter-core-4.4.0 mistune-0.8.3 nbconvert-5.3.1 nbformat-4.4.0 notebook-5.4.0 pandocfilters-1.4.2 parso-0.1.1 pickleshare-0.7.4 prompt-toolkit-1.0.15 pygments-2.2.0 python-dateutil-2.7.0 pyzmq-17.0.0 qtconsole-4.3.1 simplegeneric-0.8.1 terminado-0.8.1 testpath-0.3.1 tornado-5.0 traitlets-4.3.2 wcwidth-0.1.7 webencodings-0.5.1 widgetsnbextension-3.1.4
 ~~~
+kjhan@DataLX01:~/projectVirtualenv$ jupyter notebook --generate-config
+~~~
+Writing default config to: /home/kjhan/.jupyter/jupyter_notebook_config.py
+~~~
