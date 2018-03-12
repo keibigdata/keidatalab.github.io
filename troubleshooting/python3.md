@@ -125,3 +125,60 @@ There are 2 choices for the alternative python3 (providing /usr/bin/python3).
 
 Press <enter> to keep the current choice[*], or type selection number:
 ~~~
+b3nn9@DataLX01:~$ sudo apt-get install python-dev
+~~~
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+python-dev is already the newest version (2.7.12-1~16.04).
+0 upgraded, 0 newly installed, 0 to remove and 21 not upgraded.
+b3nn9@DataLX01:~$ sudo apt-get install python3-dev
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+python3-dev is already the newest version (3.5.1-3).
+0 upgraded, 0 newly installed, 0 to remove and 21 not upgraded.
+b3nn9@DataLX01:~$ /usr/bin/pip3 --version^C
+b3nn9@DataLX01:~$ sudo apt-get install python3.6-dev
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  libpython3.6 libpython3.6-dev
+The following NEW packages will be installed:
+  libpython3.6 libpython3.6-dev python3.6-dev
+0 upgraded, 3 newly installed, 0 to remove and 21 not upgraded.
+Need to get 4415 kB of archives.
+After this operation, 21.0 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Get:1 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial/main amd64 libpython3.6 amd64 3.6.3-1ubuntu1~16.04.york1 [1433 kB]
+Get:2 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial/main amd64 libpython3.6-dev amd64 3.6.3-1ubuntu1~16.04.york1 [2462 kB]
+Get:3 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial/main amd64 python3.6-dev amd64 3.6.3-1ubuntu1~16.04.york1 [520 kB]
+Fetched 4415 kB in 50s (86.9 kB/s)                                                                                  
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+        LANGUAGE = "ko_KR:ko:en_GB:en",
+        LC_ALL = (unset),
+        LANG = "0"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_MESSAGES to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+Selecting previously unselected package libpython3.6:amd64.
+(Reading database ... 305945 files and directories currently installed.)
+Preparing to unpack .../libpython3.6_3.6.3-1ubuntu1~16.04.york1_amd64.deb ...
+Unpacking libpython3.6:amd64 (3.6.3-1ubuntu1~16.04.york1) ...
+Selecting previously unselected package libpython3.6-dev:amd64.
+Preparing to unpack .../libpython3.6-dev_3.6.3-1ubuntu1~16.04.york1_amd64.deb ...
+Unpacking libpython3.6-dev:amd64 (3.6.3-1ubuntu1~16.04.york1) ...
+Selecting previously unselected package python3.6-dev.
+Preparing to unpack .../python3.6-dev_3.6.3-1ubuntu1~16.04.york1_amd64.deb ...
+Unpacking python3.6-dev (3.6.3-1ubuntu1~16.04.york1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up libpython3.6:amd64 (3.6.3-1ubuntu1~16.04.york1) ...
+Setting up libpython3.6-dev:amd64 (3.6.3-1ubuntu1~16.04.york1) ...
+Setting up python3.6-dev (3.6.3-1ubuntu1~16.04.york1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+~~~
