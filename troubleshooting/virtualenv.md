@@ -241,3 +241,18 @@ c.NotebookApp.port = 8111
 c.NotebookApp.ip = '192.168.1.51'
 ......
 ~~~
+~~~
+login as: dyjin
+Ubuntu 16.04.4 LTS
+dyjin@192.168.1.51's password:
+Welcome to Ubuntu 16.04.4 LTS (GNU/Linux 4.4.0-116-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+패키지 0개를  업데이트할 수 있습니다.
+0 업데이트는 보안 업데이트입니다.
+
+Last login: Mon Mar 12 13:22:58 2018 from 192.168.100.56
+~~~
