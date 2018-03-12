@@ -229,3 +229,15 @@ kjhan@DataLX01:~/projectVirtualenv$ jupyter notebook --generate-config
 ~~~
 Writing default config to: /home/kjhan/.jupyter/jupyter_notebook_config.py
 ~~~
+kjhan@DataLX01:~/projectVirtualenv$ vi /home/kjhan/.jupyter/jupyter_notebook_config.py
+~~~
+......
+## The port the notebook server will listen on.
+#c.NotebookApp.port = 8888
+c.NotebookApp.port = 8111
+......
+## The IP address the notebook server will listen on.
+#c.NotebookApp.ip = 'localhost'
+c.NotebookApp.ip = '192.168.1.51'
+......
+~~~
