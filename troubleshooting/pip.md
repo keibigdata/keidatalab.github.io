@@ -1,9 +1,9 @@
-~~~
 kjhan@DataLX01:~$ which pip3
+~~~
 /usr/bin/pip3
 ~~~
-~~~
 kjhan@DataLX01:~$ pip3 install --user pipenv
+~~~
 Collecting pipenv
   Downloading pipenv-11.5.2.tar.gz (3.9MB)
     100% |████████████████████████████████| 3.9MB 494kB/s 
@@ -71,12 +71,56 @@ You are using pip version 8.1.1, however version 9.0.1 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
 ~~~
 kjhan@DataLX01:~$ which pip
+~~~
 /home/kjhan/.local/bin/pip
 ~~~
-~~~
 kjhan@DataLX01:~$ pip install --upgrade pip
+~~~
 Requirement already up-to-date: pip in ./.local/lib/python3.5/site-packages
 ~~~
 kjhan@DataLX01:~$ which pip3
+~~~
 /home/kjhan/.local/bin/pip3
+~~~
+kjhan@DataLX01:~$ pip install --user pipenv
+~~~
+Requirement already satisfied: pipenv in ./.local/lib/python3.5/site-packages
+Requirement already satisfied: pathlib in ./.local/lib/python3.5/site-packages (from pipenv)
+Requirement already satisfied: setuptools>=36.2.1 in ./.local/lib/python3.5/site-packages (from pipenv)
+Requirement already satisfied: virtualenv in ./.local/lib/python3.5/site-packages (from pipenv)
+Requirement already satisfied: requests[security] in ./.local/lib/python3.5/site-packages (from pipenv)
+Requirement already satisfied: pip>=9.0.1 in ./.local/lib/python3.5/site-packages (from pipenv)
+Requirement already satisfied: ordereddict in ./.local/lib/python3.5/site-packages (from pipenv)
+Requirement already satisfied: virtualenv-clone>=0.2.5 in ./.local/lib/python3.5/site-packages (from pipenv)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in ./.local/lib/python3.5/site-packages (from requests[security]->pipenv)
+Requirement already satisfied: certifi>=2017.4.17 in ./.local/lib/python3.5/site-packages (from requests[security]->pipenv)
+Requirement already satisfied: urllib3<1.23,>=1.21.1 in ./.local/lib/python3.5/site-packages (from requests[security]->pipenv)
+Requirement already satisfied: idna<2.7,>=2.5 in ./.local/lib/python3.5/site-packages (from requests[security]->pipenv)
+Requirement already satisfied: pyOpenSSL>=0.14; extra == "security" in ./.local/lib/python3.5/site-packages (from requests[security]->pipenv)
+Requirement already satisfied: cryptography>=1.3.4; extra == "security" in ./.local/lib/python3.5/site-packages (from requests[security]->pipenv)
+Requirement already satisfied: six>=1.5.2 in ./.local/lib/python3.5/site-packages (from pyOpenSSL>=0.14; extra == "security"->requests[security]->pipenv)
+Requirement already satisfied: asn1crypto>=0.21.0 in ./.local/lib/python3.5/site-packages (from cryptography>=1.3.4; extra == "security"->requests[security]->pipenv)
+Requirement already satisfied: cffi>=1.7; platform_python_implementation != "PyPy" in ./.local/lib/python3.5/site-packages (from cryptography>=1.3.4; extra == "security"->requests[security]->pipenv)
+Requirement already satisfied: pycparser in ./.local/lib/python3.5/site-packages (from cffi>=1.7; platform_python_implementation != "PyPy"->cryptography>=1.3.4; extra == "security"->requests[security]->pipenv)
+~~~
+kjhan@DataLX01:~$ pip3 install --user pipenv
+~~~
+Requirement already satisfied: pipenv in ./.local/lib/python3.5/site-packages
+Requirement already satisfied: ordereddict in ./.local/lib/python3.5/site-packages (from pipenv)
+Requirement already satisfied: pathlib in ./.local/lib/python3.5/site-packages (from pipenv)
+Requirement already satisfied: requests[security] in ./.local/lib/python3.5/site-packages (from pipenv)
+Requirement already satisfied: virtualenv-clone>=0.2.5 in ./.local/lib/python3.5/site-packages (from pipenv)
+Requirement already satisfied: virtualenv in ./.local/lib/python3.5/site-packages (from pipenv)
+Requirement already satisfied: pip>=9.0.1 in ./.local/lib/python3.5/site-packages (from pipenv)
+Requirement already satisfied: setuptools>=36.2.1 in ./.local/lib/python3.5/site-packages (from pipenv)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in ./.local/lib/python3.5/site-packages (from requests[security]->pipenv)
+Requirement already satisfied: idna<2.7,>=2.5 in ./.local/lib/python3.5/site-packages (from requests[security]->pipenv)
+Requirement already satisfied: urllib3<1.23,>=1.21.1 in ./.local/lib/python3.5/site-packages (from requests[security]->pipenv)
+Requirement already satisfied: certifi>=2017.4.17 in ./.local/lib/python3.5/site-packages (from requests[security]->pipenv)
+Requirement already satisfied: cryptography>=1.3.4; extra == "security" in ./.local/lib/python3.5/site-packages (from requests[security]->pipenv)
+Requirement already satisfied: pyOpenSSL>=0.14; extra == "security" in ./.local/lib/python3.5/site-packages (from requests[security]->pipenv)
+Requirement already satisfied: six>=1.4.1 in ./.local/lib/python3.5/site-packages (from cryptography>=1.3.4; extra == "security"->requests[security]->pipenv)
+Requirement already satisfied: asn1crypto>=0.21.0 in ./.local/lib/python3.5/site-packages (from cryptography>=1.3.4; extra == "security"->requests[security]->pipenv)
+Requirement already satisfied: cffi>=1.7; platform_python_implementation != "PyPy" in ./.local/lib/python3.5/site-packages (from cryptography>=1.3.4; extra == "security"->requests[security]->pipenv)
+Requirement already satisfied: pycparser in ./.local/lib/python3.5/site-packages (from cffi>=1.7; platform_python_implementation != "PyPy"->cryptography>=1.3.4; extra == "security"->requests[security]->pipenv)
 ~~~
