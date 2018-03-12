@@ -1,4 +1,4 @@
-### This refers 'http://docs.python-guide.org/en/latest/dev/virtualenvs/'
+### refers 'http://docs.python-guide.org/en/latest/dev/virtualenvs/'
   
 kjhan@DataLX01:~$ which pip3
 ~~~
