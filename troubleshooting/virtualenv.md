@@ -148,3 +148,80 @@ xdiagnose (3.8.4.1)
 xkit (0.0.0)
 XlsxWriter (0.7.3)
 ~~~
+kjhan@DataLX01:~/projectVirtualenv$ pip install --user jupyter
+~~~
+Collecting jupyter
+  Using cached jupyter-1.0.0-py2.py3-none-any.whl
+Collecting nbconvert (from jupyter)
+  Using cached nbconvert-5.3.1-py2.py3-none-any.whl
+Collecting ipykernel (from jupyter)
+  Using cached ipykernel-4.8.2-py3-none-any.whl
+Collecting qtconsole (from jupyter)
+  Using cached qtconsole-4.3.1-py2.py3-none-any.whl
+Collecting notebook (from jupyter)
+  Using cached notebook-5.4.0-py2.py3-none-any.whl
+Collecting ipywidgets (from jupyter)
+  Using cached ipywidgets-7.1.2-py2.py3-none-any.whl
+Collecting jupyter-console (from jupyter)
+  Using cached jupyter_console-5.2.0-py2.py3-none-any.whl
+Requirement already satisfied: jinja2 in /usr/lib/python3/dist-packages (from nbconvert->jupyter)
+Collecting jupyter-core (from nbconvert->jupyter)
+  Using cached jupyter_core-4.4.0-py2.py3-none-any.whl
+Collecting nbformat>=4.4 (from nbconvert->jupyter)
+  Using cached nbformat-4.4.0-py2.py3-none-any.whl
+Collecting traitlets>=4.2 (from nbconvert->jupyter)
+  Using cached traitlets-4.3.2-py2.py3-none-any.whl
+Collecting mistune>=0.7.4 (from nbconvert->jupyter)
+  Using cached mistune-0.8.3-py2.py3-none-any.whl
+Collecting pandocfilters>=1.4.1 (from nbconvert->jupyter)
+Collecting testpath (from nbconvert->jupyter)
+  Using cached testpath-0.3.1-py2.py3-none-any.whl
+Collecting bleach (from nbconvert->jupyter)
+  Using cached bleach-2.1.3-py2.py3-none-any.whl
+Collecting pygments (from nbconvert->jupyter)
+  Using cached Pygments-2.2.0-py2.py3-none-any.whl
+Collecting entrypoints>=0.2.2 (from nbconvert->jupyter)
+  Using cached entrypoints-0.2.3-py2.py3-none-any.whl
+Collecting tornado>=4.0 (from ipykernel->jupyter)
+Collecting ipython>=4.0.0 (from ipykernel->jupyter)
+  Using cached ipython-6.2.1-py3-none-any.whl
+Collecting jupyter-client (from ipykernel->jupyter)
+  Using cached jupyter_client-5.2.2-py2.py3-none-any.whl
+Collecting ipython-genutils (from qtconsole->jupyter)
+  Using cached ipython_genutils-0.2.0-py2.py3-none-any.whl
+Collecting terminado>=0.8.1 (from notebook->jupyter)
+  Using cached terminado-0.8.1-py2.py3-none-any.whl
+Collecting Send2Trash (from notebook->jupyter)
+  Using cached Send2Trash-1.5.0-py3-none-any.whl
+Collecting widgetsnbextension~=3.1.0 (from ipywidgets->jupyter)
+  Using cached widgetsnbextension-3.1.4-py2.py3-none-any.whl
+Collecting prompt-toolkit<2.0.0,>=1.0.0 (from jupyter-console->jupyter)
+  Using cached prompt_toolkit-1.0.15-py3-none-any.whl
+Requirement already satisfied: MarkupSafe in /usr/lib/python3/dist-packages (from jinja2->nbconvert->jupyter)
+Collecting jsonschema!=2.5.0,>=2.4 (from nbformat>=4.4->nbconvert->jupyter)
+  Using cached jsonschema-2.6.0-py2.py3-none-any.whl
+Requirement already satisfied: decorator in /usr/lib/python3/dist-packages (from traitlets>=4.2->nbconvert->jupyter)
+Requirement already satisfied: six in /usr/lib/python3/dist-packages (from traitlets>=4.2->nbconvert->jupyter)
+Collecting html5lib!=1.0b1,!=1.0b2,!=1.0b3,!=1.0b4,!=1.0b5,!=1.0b6,!=1.0b7,!=1.0b8,>=0.99999999pre (from bleach->nbconvert->jupyter)
+  Using cached html5lib-1.0.1-py2.py3-none-any.whl
+Requirement already satisfied: pexpect; sys_platform != "win32" in /usr/lib/python3/dist-packages (from ipython>=4.0.0->ipykernel->jupyter)
+Requirement already satisfied: setuptools>=18.5 in /usr/lib/python3/dist-packages (from ipython>=4.0.0->ipykernel->jupyter)
+Collecting jedi>=0.10 (from ipython>=4.0.0->ipykernel->jupyter)
+  Using cached jedi-0.11.1-py2.py3-none-any.whl
+Collecting pickleshare (from ipython>=4.0.0->ipykernel->jupyter)
+  Using cached pickleshare-0.7.4-py2.py3-none-any.whl
+Collecting simplegeneric>0.8 (from ipython>=4.0.0->ipykernel->jupyter)
+Collecting pyzmq>=13 (from jupyter-client->ipykernel->jupyter)
+  Using cached pyzmq-17.0.0-cp36-cp36m-manylinux1_x86_64.whl
+Collecting python-dateutil>=2.1 (from jupyter-client->ipykernel->jupyter)
+  Using cached python_dateutil-2.7.0-py2.py3-none-any.whl
+Requirement already satisfied: ptyprocess; os_name != "nt" in /usr/lib/python3/dist-packages (from terminado>=0.8.1->notebook->jupyter)
+Collecting wcwidth (from prompt-toolkit<2.0.0,>=1.0.0->jupyter-console->jupyter)
+  Using cached wcwidth-0.1.7-py2.py3-none-any.whl
+Collecting webencodings (from html5lib!=1.0b1,!=1.0b2,!=1.0b3,!=1.0b4,!=1.0b5,!=1.0b6,!=1.0b7,!=1.0b8,>=0.99999999pre->bleach->nbconvert->jupyter)
+  Using cached webencodings-0.5.1-py2.py3-none-any.whl
+Collecting parso==0.1.1 (from jedi>=0.10->ipython>=4.0.0->ipykernel->jupyter)
+  Using cached parso-0.1.1-py2.py3-none-any.whl
+Installing collected packages: ipython-genutils, traitlets, jupyter-core, jsonschema, nbformat, mistune, pandocfilters, testpath, webencodings, html5lib, bleach, pygments, entrypoints, nbconvert, tornado, parso, jedi, wcwidth, prompt-toolkit, pickleshare, simplegeneric, ipython, pyzmq, python-dateutil, jupyter-client, ipykernel, qtconsole, terminado, Send2Trash, notebook, widgetsnbextension, ipywidgets, jupyter-console, jupyter
+Successfully installed Send2Trash-1.5.0 bleach-2.1.3 entrypoints-0.2.3 html5lib-1.0.1 ipykernel-4.8.2 ipython-6.2.1 ipython-genutils-0.2.0 ipywidgets-7.1.2 jedi-0.11.1 jsonschema-2.6.0 jupyter-1.0.0 jupyter-client-5.2.2 jupyter-console-5.2.0 jupyter-core-4.4.0 mistune-0.8.3 nbconvert-5.3.1 nbformat-4.4.0 notebook-5.4.0 pandocfilters-1.4.2 parso-0.1.1 pickleshare-0.7.4 prompt-toolkit-1.0.15 pygments-2.2.0 python-dateutil-2.7.0 pyzmq-17.0.0 qtconsole-4.3.1 simplegeneric-0.8.1 terminado-0.8.1 testpath-0.3.1 tornado-5.0 traitlets-4.3.2 wcwidth-0.1.7 webencodings-0.5.1 widgetsnbextension-3.1.4
+~~~
