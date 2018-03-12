@@ -221,3 +221,8 @@ python3-apt is already the newest version (1.1.0~beta1ubuntu0.16.04.1).
 python3-apt set to manually installed.
 0 upgraded, 0 newly installed, 0 to remove and 21 not upgraded.
 ~~~
+b3nn9@DataLX01:/usr/lib/python3/dist-packages$ sudo ln -s apt_pkg.cpython-{35m,36m}-x86_64-linux-gnu.so  
+b3nn9@DataLX01:/usr/lib/python3/dist-packages$ ls apt_pkg*  
+~~~
+apt_pkg.cpython-35m-x86_64-linux-gnu.so  apt_pkg.cpython-36m-x86_64-linux-gnu.so
+~~~
