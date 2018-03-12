@@ -182,3 +182,33 @@ Setting up libpython3.6-dev:amd64 (3.6.3-1ubuntu1~16.04.york1) ...
 Setting up python3.6-dev (3.6.3-1ubuntu1~16.04.york1) ...
 Processing triggers for libc-bin (2.23-0ubuntu10) ...
 ~~~
+b3nn9@DataLX01:~$ sudo apt-get install python-apt
+~~~
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Suggested packages:
+  python-apt-dbg python-apt-doc
+The following NEW packages will be installed:
+  python-apt
+0 upgraded, 1 newly installed, 0 to remove and 21 not upgraded.
+Need to get 139 kB of archives.
+After this operation, 632 kB of additional disk space will be used.
+Get:1 http://kr.archive.ubuntu.com/ubuntu xenial-updates/main amd64 python-apt amd64 1.1.0~beta1ubuntu0.16.04.1 [139 kB]
+Fetched 139 kB in 3s (43.0 kB/s)     
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+        LANGUAGE = "ko_KR:ko:en_GB:en",
+        LC_ALL = (unset),
+        LANG = "0"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_MESSAGES to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+Selecting previously unselected package python-apt.
+(Reading database ... 306089 files and directories currently installed.)
+Preparing to unpack .../python-apt_1.1.0~beta1ubuntu0.16.04.1_amd64.deb ...
+Unpacking python-apt (1.1.0~beta1ubuntu0.16.04.1) ...
+Setting up python-apt (1.1.0~beta1ubuntu0.16.04.1) ...
+~~~
