@@ -174,7 +174,9 @@ Installing dependencies from Pipfile.lock (23c00a)…
 To activate this project's virtualenv, run the following:
  $ pipenv shell
 ~~~
-kjhan@DataLX01:~/projectPipenv$ emacs main.py
+kjhan@DataLX01:~/projectPipenv$ emacs main.py  
+Ctrl + S : Save  
+Ctrl + X, C : Exit  
 ~~~
 import requests
 
