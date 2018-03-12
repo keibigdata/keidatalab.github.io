@@ -183,3 +183,7 @@ kjhan@DataLX01:~/projectPipenv$ pipenv run python main.py
 ~~~
 Your IP is 203.250.98.129
 ~~~
+kjhan@DataLX01:~/projectPipenv$ pipenv run python3 main.py
+~~~
+Your IP is 203.250.98.129
+~~~
