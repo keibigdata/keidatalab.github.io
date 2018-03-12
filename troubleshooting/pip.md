@@ -124,3 +124,21 @@ Requirement already satisfied: asn1crypto>=0.21.0 in ./.local/lib/python3.5/site
 Requirement already satisfied: cffi>=1.7; platform_python_implementation != "PyPy" in ./.local/lib/python3.5/site-packages (from cryptography>=1.3.4; extra == "security"->requests[security]->pipenv)
 Requirement already satisfied: pycparser in ./.local/lib/python3.5/site-packages (from cffi>=1.7; platform_python_implementation != "PyPy"->cryptography>=1.3.4; extra == "security"->requests[security]->pipenv)
 ~~~
+kjhan@DataLX01:~$ cd .local/bin  
+kjhan@DataLX01:~/.local/bin$ ls -al
+~~~
+합계 52
+drwxrwxr-x 2 kjhan kjhan 4096  3월 12 09:54 .
+drwx------ 4 kjhan kjhan 4096  3월 12 09:54 ..
+-rwxrwxr-x 1 kjhan kjhan  224  3월 12 09:54 chardetect
+-rwxrwxr-x 1 kjhan kjhan  233  3월 12 09:54 easy_install
+-rwxrwxr-x 1 kjhan kjhan  233  3월 12 09:54 easy_install-3.5
+-rwxrwxr-x 1 kjhan kjhan  222  3월 12 09:54 pewtwo
+-rwxrwxr-x 1 kjhan kjhan  205  3월 12 09:54 pip
+-rwxrwxr-x 1 kjhan kjhan  205  3월 12 09:54 pip3
+-rwxrwxr-x 1 kjhan kjhan  205  3월 12 09:54 pip3.5
+-rwxrwxr-x 1 kjhan kjhan  206  3월 12 09:54 pipenv
+-rwxrwxr-x 1 kjhan kjhan  217  3월 12 09:54 pipenv-resolver
+-rwxrwxr-x 1 kjhan kjhan  212  3월 12 09:54 virtualenv
+-rwxrwxr-x 1 kjhan kjhan  217  3월 12 09:54 virtualenv-clone
+~~~
