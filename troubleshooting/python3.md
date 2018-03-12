@@ -226,3 +226,148 @@ b3nn9@DataLX01:/usr/lib/python3/dist-packages$ ls apt_pkg*
 ~~~
 apt_pkg.cpython-35m-x86_64-linux-gnu.so  apt_pkg.cpython-36m-x86_64-linux-gnu.so
 ~~~
+sources.list change to daumkakao
+~~~
+b3nn9@DataLX01:~$ sudo apt-get update && sudo apt-get dist-upgrade
+Hit:1 https://apt.dockerproject.org/repo ubuntu-xenial InRelease
+Hit:2 http://ppa.launchpad.net/graphics-drivers/ppa/ubuntu xenial InRelease                         
+Hit:3 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial InRelease                         
+Hit:4 http://ppa.launchpad.net/webupd8team/java/ubuntu xenial InRelease                             
+Get:5 http://ftp.daumkakao.com/ubuntu xenial InRelease [247 kB]          
+Get:6 http://ftp.daumkakao.com/ubuntu xenial-updates InRelease [102 kB]
+Get:7 http://ftp.daumkakao.com/ubuntu xenial-backports InRelease [102 kB]
+Get:8 http://ftp.daumkakao.com/ubuntu xenial-security InRelease [102 kB]
+Get:9 http://ftp.daumkakao.com/ubuntu xenial/main amd64 Packages [1201 kB]
+Get:10 http://ftp.daumkakao.com/ubuntu xenial/main i386 Packages [1196 kB]
+Get:11 http://ftp.daumkakao.com/ubuntu xenial/main Translation-en [568 kB]
+Get:12 http://ftp.daumkakao.com/ubuntu xenial/main Translation-en_GB [426 kB]
+Get:13 http://ftp.daumkakao.com/ubuntu xenial/main Translation-ko [80.2 kB]
+Get:14 http://ftp.daumkakao.com/ubuntu xenial/main amd64 DEP-11 Metadata [733 kB]
+Get:15 http://ftp.daumkakao.com/ubuntu xenial/main DEP-11 64x64 Icons [409 kB]
+Get:16 http://ftp.daumkakao.com/ubuntu xenial/restricted amd64 Packages [8344 B]
+Get:17 http://ftp.daumkakao.com/ubuntu xenial/restricted i386 Packages [8684 B]
+Get:18 http://ftp.daumkakao.com/ubuntu xenial/restricted Translation-en [2908 B]
+Get:19 http://ftp.daumkakao.com/ubuntu xenial/restricted Translation-en_GB [2556 B]
+Get:20 http://ftp.daumkakao.com/ubuntu xenial/restricted Translation-ko [716 B]
+Get:21 http://ftp.daumkakao.com/ubuntu xenial/restricted amd64 DEP-11 Metadata [186 B]
+Get:22 http://ftp.daumkakao.com/ubuntu xenial/universe amd64 Packages [7532 kB]
+Ign:23 http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64  InRelease
+Get:24 http://ftp.daumkakao.com/ubuntu xenial/universe i386 Packages [7512 kB]
+Hit:25 http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64  Release
+Get:27 http://ftp.daumkakao.com/ubuntu xenial/universe Translation-en [4354 kB]      
+Get:28 http://ftp.daumkakao.com/ubuntu xenial/universe Translation-en_GB [3040 kB]                                  
+Get:29 http://ftp.daumkakao.com/ubuntu xenial/universe Translation-ko [158 kB]                                      
+Get:30 http://ftp.daumkakao.com/ubuntu xenial/universe amd64 DEP-11 Metadata [3410 kB]                              
+Get:31 http://ftp.daumkakao.com/ubuntu xenial/universe DEP-11 64x64 Icons [7448 kB]                                 
+Get:32 http://ftp.daumkakao.com/ubuntu xenial/multiverse amd64 Packages [144 kB]                                    
+Get:33 http://ftp.daumkakao.com/ubuntu xenial/multiverse i386 Packages [140 kB]                                     
+Get:34 http://ftp.daumkakao.com/ubuntu xenial/multiverse Translation-en [106 kB]                                    
+Get:35 http://ftp.daumkakao.com/ubuntu xenial/multiverse Translation-en_GB [88.1 kB]                                
+Get:36 http://ftp.daumkakao.com/ubuntu xenial/multiverse amd64 DEP-11 Metadata [63.8 kB]                            
+Get:37 http://ftp.daumkakao.com/ubuntu xenial/multiverse DEP-11 64x64 Icons [230 kB]                                
+Get:38 http://ftp.daumkakao.com/ubuntu xenial-updates/main amd64 Packages [710 kB]                                  
+Get:39 http://ftp.daumkakao.com/ubuntu xenial-updates/main i386 Packages [660 kB]                                   
+Get:40 http://ftp.daumkakao.com/ubuntu xenial-updates/main Translation-en [295 kB]                                  
+Get:41 http://ftp.daumkakao.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata [308 kB]                           
+Get:42 http://ftp.daumkakao.com/ubuntu xenial-updates/main DEP-11 64x64 Icons [222 kB]                              
+Get:43 http://ftp.daumkakao.com/ubuntu xenial-updates/restricted amd64 Packages [7560 B]                            
+Get:44 http://ftp.daumkakao.com/ubuntu xenial-updates/restricted i386 Packages [7524 B]                             
+Get:45 http://ftp.daumkakao.com/ubuntu xenial-updates/restricted Translation-en [2272 B]                            
+Get:46 http://ftp.daumkakao.com/ubuntu xenial-updates/restricted amd64 DEP-11 Metadata [157 B]                      
+Get:47 http://ftp.daumkakao.com/ubuntu xenial-updates/universe amd64 Packages [580 kB]                              
+Get:48 http://ftp.daumkakao.com/ubuntu xenial-updates/universe i386 Packages [538 kB]                               
+Get:49 http://ftp.daumkakao.com/ubuntu xenial-updates/universe Translation-en [234 kB]                              
+Get:50 http://ftp.daumkakao.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata [190 kB]                       
+Get:51 http://ftp.daumkakao.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons [270 kB]                          
+Get:52 http://ftp.daumkakao.com/ubuntu xenial-updates/multiverse amd64 Packages [16.2 kB]                           
+Get:53 http://ftp.daumkakao.com/ubuntu xenial-updates/multiverse i386 Packages [15.3 kB]                            
+Get:54 http://ftp.daumkakao.com/ubuntu xenial-updates/multiverse Translation-en [8052 B]                            
+Get:55 http://ftp.daumkakao.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata [5888 B]                     
+Get:56 http://ftp.daumkakao.com/ubuntu xenial-updates/multiverse DEP-11 64x64 Icons [14.3 kB]                       
+Get:57 http://ftp.daumkakao.com/ubuntu xenial-backports/main amd64 Packages [4840 B]                                
+Get:58 http://ftp.daumkakao.com/ubuntu xenial-backports/main i386 Packages [4832 B]                                 
+Get:59 http://ftp.daumkakao.com/ubuntu xenial-backports/main Translation-en [3220 B]                                
+Get:60 http://ftp.daumkakao.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata [3324 B]                         
+Get:61 http://ftp.daumkakao.com/ubuntu xenial-backports/main DEP-11 64x64 Icons [29 B]                              
+Get:62 http://ftp.daumkakao.com/ubuntu xenial-backports/restricted amd64 DEP-11 Metadata [194 B]                    
+Get:63 http://ftp.daumkakao.com/ubuntu xenial-backports/universe amd64 Packages [6612 B]                            
+Get:64 http://ftp.daumkakao.com/ubuntu xenial-backports/universe i386 Packages [6600 B]                             
+Get:65 http://ftp.daumkakao.com/ubuntu xenial-backports/universe Translation-en [3768 B]                            
+Get:66 http://ftp.daumkakao.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata [4712 B]                     
+Get:67 http://ftp.daumkakao.com/ubuntu xenial-backports/universe DEP-11 64x64 Icons [2716 B]                        
+Get:68 http://ftp.daumkakao.com/ubuntu xenial-backports/multiverse amd64 DEP-11 Metadata [216 B]                    
+Get:69 http://ftp.daumkakao.com/ubuntu xenial-backports/multiverse DEP-11 64x64 Icons [29 B]                        
+Get:70 http://ftp.daumkakao.com/ubuntu xenial-security/main amd64 Packages [435 kB]                                 
+Get:71 http://ftp.daumkakao.com/ubuntu xenial-security/main i386 Packages [391 kB]                                  
+Get:72 http://ftp.daumkakao.com/ubuntu xenial-security/main Translation-en [189 kB]                                 
+Get:73 http://ftp.daumkakao.com/ubuntu xenial-security/main amd64 DEP-11 Metadata [62.7 kB]                         
+Get:74 http://ftp.daumkakao.com/ubuntu xenial-security/main DEP-11 64x64 Icons [65.1 kB]                            
+Get:75 http://ftp.daumkakao.com/ubuntu xenial-security/restricted amd64 Packages [7224 B]                           
+Get:76 http://ftp.daumkakao.com/ubuntu xenial-security/restricted i386 Packages [7224 B]                            
+Get:77 http://ftp.daumkakao.com/ubuntu xenial-security/restricted Translation-en [2152 B]                           
+Get:78 http://ftp.daumkakao.com/ubuntu xenial-security/restricted amd64 DEP-11 Metadata [200 B]                     
+Get:79 http://ftp.daumkakao.com/ubuntu xenial-security/universe amd64 Packages [200 kB]                             
+Get:80 http://ftp.daumkakao.com/ubuntu xenial-security/universe i386 Packages [162 kB]                              
+Get:81 http://ftp.daumkakao.com/ubuntu xenial-security/universe Translation-en [102 kB]                             
+Get:82 http://ftp.daumkakao.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata [51.4 kB]                     
+Get:83 http://ftp.daumkakao.com/ubuntu xenial-security/universe DEP-11 64x64 Icons [80.2 kB]                        
+Get:84 http://ftp.daumkakao.com/ubuntu xenial-security/multiverse amd64 Packages [3208 B]                           
+Get:85 http://ftp.daumkakao.com/ubuntu xenial-security/multiverse i386 Packages [3380 B]                            
+Get:86 http://ftp.daumkakao.com/ubuntu xenial-security/multiverse Translation-en [1408 B]                           
+Get:87 http://ftp.daumkakao.com/ubuntu xenial-security/multiverse amd64 DEP-11 Metadata [212 B]                     
+Get:88 http://ftp.daumkakao.com/ubuntu xenial-security/multiverse DEP-11 64x64 Icons [29 B]                         
+Fetched 45.3 MB in 9s (4854 kB/s)                                                                                   
+Reading package lists... Done
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Calculating upgrade... Done
+The following packages were automatically installed and are no longer required:
+  cuda-9-0 cuda-command-line-tools-9-0 cuda-core-9-0 cuda-cublas-9-0 cuda-cublas-dev-9-0 cuda-cudart-9-0
+  cuda-cudart-dev-9-0 cuda-cufft-9-0 cuda-cufft-dev-9-0 cuda-curand-9-0 cuda-curand-dev-9-0 cuda-cusolver-9-0
+  cuda-cusolver-dev-9-0 cuda-cusparse-9-0 cuda-cusparse-dev-9-0 cuda-demo-suite-9-0 cuda-documentation-9-0
+  cuda-driver-dev-9-0 cuda-libraries-9-0 cuda-libraries-dev-9-0 cuda-license-9-0 cuda-misc-headers-9-0 cuda-npp-9-0
+  cuda-npp-dev-9-0 cuda-nvgraph-9-0 cuda-nvgraph-dev-9-0 cuda-nvml-dev-9-0 cuda-nvrtc-9-0 cuda-nvrtc-dev-9-0
+  cuda-runtime-9-0 cuda-samples-9-0 cuda-toolkit-9-0 cuda-visual-tools-9-0 libllvm4.0
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  libcuda1-384 nvidia-384 nvidia-384-dev nvidia-opencl-icd-384
+The following NEW packages will be installed:
+  cuda-9-1 cuda-command-line-tools-9-1 cuda-compiler-9-1 cuda-cublas-9-1 cuda-cublas-dev-9-1 cuda-cudart-9-1
+  cuda-cudart-dev-9-1 cuda-cufft-9-1 cuda-cufft-dev-9-1 cuda-cuobjdump-9-1 cuda-cupti-9-1 cuda-curand-9-1
+  cuda-curand-dev-9-1 cuda-cusolver-9-1 cuda-cusolver-dev-9-1 cuda-cusparse-9-1 cuda-cusparse-dev-9-1
+  cuda-demo-suite-9-1 cuda-documentation-9-1 cuda-driver-dev-9-1 cuda-gdb-9-1 cuda-gpu-library-advisor-9-1
+  cuda-libraries-9-1 cuda-libraries-dev-9-1 cuda-license-9-1 cuda-memcheck-9-1 cuda-misc-headers-9-1 cuda-npp-9-1
+  cuda-npp-dev-9-1 cuda-nsight-9-1 cuda-nvcc-9-1 cuda-nvdisasm-9-1 cuda-nvgraph-9-1 cuda-nvgraph-dev-9-1
+  cuda-nvml-dev-9-1 cuda-nvprof-9-1 cuda-nvprune-9-1 cuda-nvrtc-9-1 cuda-nvrtc-dev-9-1 cuda-nvtx-9-1 cuda-nvvp-9-1
+  cuda-runtime-9-1 cuda-samples-9-1 cuda-toolkit-9-1 cuda-tools-9-1 cuda-visual-tools-9-1 libcuda1-390
+  libdrm-common libllvm5.0 nvidia-390 nvidia-390-dev nvidia-opencl-icd-390
+The following packages will be upgraded:
+  cuda cuda-drivers libdrm-amdgpu1 libdrm-dev libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libdrm2 libegl1-mesa
+  libegl1-mesa-dev libgbm1 libgl1-mesa-dri libwayland-egl1-mesa libxatracker2 mesa-vdpau-drivers python3-gdbm
+16 upgraded, 52 newly installed, 4 to remove and 0 not upgraded.
+Need to get 8738 kB/1212 MB of archives.
+After this operation, 2460 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Get:1 http://ftp.daumkakao.com/ubuntu xenial-updates/main amd64 libegl1-mesa-dev amd64 17.2.4-0ubuntu1~16.04.4 [19.9 kB]
+Get:2 http://ftp.daumkakao.com/ubuntu xenial-updates/main amd64 libwayland-egl1-mesa amd64 17.2.4-0ubuntu1~16.04.4 [5874 B]
+Get:3 http://ftp.daumkakao.com/ubuntu xenial-updates/main amd64 libegl1-mesa amd64 17.2.4-0ubuntu1~16.04.4 [84.5 kB]
+Get:4 http://ftp.daumkakao.com/ubuntu xenial-updates/main amd64 libgbm1 amd64 17.2.4-0ubuntu1~16.04.4 [24.6 kB]
+Get:5 http://ftp.daumkakao.com/ubuntu xenial-updates/main amd64 libgl1-mesa-dri amd64 17.2.4-0ubuntu1~16.04.4 [5782 kB]
+Get:6 http://ftp.daumkakao.com/ubuntu xenial-updates/main amd64 libxatracker2 amd64 17.2.4-0ubuntu1~16.04.4 [1103 kB]
+Get:7 http://ftp.daumkakao.com/ubuntu xenial-updates/main amd64 mesa-vdpau-drivers amd64 17.2.4-0ubuntu1~16.04.4 [1718 kB]
+Fetched 8738 kB in 1s (7320 kB/s)            
+Extracting templates from packages: 100%
+(Reading database ... 306117 files and directories currently installed.)
+Preparing to unpack .../cuda-drivers_390.30-1_amd64.deb ...
+Unpacking cuda-drivers (390.30-1) over (384.81-1) ...
+(Reading database ... 306116 files and directories currently installed.)
+Removing nvidia-opencl-icd-384 (384.111-0ubuntu1) ...
+Removing nvidia-384-dev (384.111-0ubuntu1) ...
+dpkg: nvidia-384: dependency problems, but removing anyway as you requested:
+ libcuda1-384 depends on nvidia-384 (>= 384.111).
+
+Removing nvidia-384 (384.111-0ubuntu1) ...
+Removing all DKMS Modules
+
+~~~
