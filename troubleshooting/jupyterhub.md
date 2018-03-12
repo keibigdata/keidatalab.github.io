@@ -12,5 +12,10 @@ ExecStart=/home/condadmin/anaconda3/bin/jupyterhub -f /etc/jupyterhub/jupyterhub
 [Install]
 WantedBy=multi-user.target
 ~~~  
-  
+
+condadmin@DataLX01:~$ which jupyterhub
+/home/condadmin/anaconda3/bin/jupyterhub
+condadmin@DataLX01:~$ jupyterhub --version
+0.8.1
+
   sudo /home/condadmin/anaconda3/bin/jupyterhub --no-ssl &
