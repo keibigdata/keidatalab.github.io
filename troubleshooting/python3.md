@@ -212,3 +212,12 @@ Preparing to unpack .../python-apt_1.1.0~beta1ubuntu0.16.04.1_amd64.deb ...
 Unpacking python-apt (1.1.0~beta1ubuntu0.16.04.1) ...
 Setting up python-apt (1.1.0~beta1ubuntu0.16.04.1) ...
 ~~~
+b3nn9@DataLX01:~$ sudo apt-get install python3-apt
+~~~
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+python3-apt is already the newest version (1.1.0~beta1ubuntu0.16.04.1).
+python3-apt set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 21 not upgraded.
+~~~
