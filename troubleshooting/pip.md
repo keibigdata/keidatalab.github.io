@@ -172,3 +172,14 @@ Installing dependencies from Pipfile.lock (23c00a)…
 To activate this project's virtualenv, run the following:
  $ pipenv shell
 ~~~
+kjhan@DataLX01:~/projectPipenv$ emacs main.py
+~~~
+import requests
+
+response = requests.get('https://httpbin.org/ip')
+print("Your IP is {0}".format(response.json()['origin']))
+~~~
+kjhan@DataLX01:~/projectPipenv$ pipenv run python main.py
+~~~
+Your IP is 203.250.98.129
+~~~
