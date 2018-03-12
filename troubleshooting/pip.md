@@ -142,3 +142,33 @@ drwx------ 4 kjhan kjhan 4096  3월 12 09:54 ..
 -rwxrwxr-x 1 kjhan kjhan  212  3월 12 09:54 virtualenv
 -rwxrwxr-x 1 kjhan kjhan  217  3월 12 09:54 virtualenv-clone
 ~~~
+kjhan@DataLX01:~$ mkdir projectPipenv  
+kjhan@DataLX01:~$ cd projectPipenv/  
+kjhan@DataLX01:~/projectPipenv$ pipenv install requests
+~~~
+Creating a virtualenv for this project…
+Using /usr/bin/python3 (3.5.2) to create virtualenv…
+⠋Already using interpreter /usr/bin/python3
+Using base prefix '/usr'
+New python executable in /home/kjhan/.local/share/virtualenvs/projectPipenv-EY907GBp/bin/python3
+Also creating executable in /home/kjhan/.local/share/virtualenvs/projectPipenv-EY907GBp/bin/python
+Installing setuptools, pip, wheel...done.
+
+Virtualenv location: /home/kjhan/.local/share/virtualenvs/projectPipenv-EY907GBp
+Creating a Pipfile for this project…
+Installing requests…
+Collecting requests
+  Using cached requests-2.18.4-py2.py3-none-any.whl
+Installing collected packages: requests
+Successfully installed requests-2.18.4
+
+Adding requests to Pipfile's [packages]…
+Pipfile.lock not found, creating…
+Locking [dev-packages] dependencies…
+Locking [packages] dependencies…
+Updated Pipfile.lock (23c00a)!
+Installing dependencies from Pipfile.lock (23c00a)…
+     ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 5/5 — 00:00:00
+To activate this project's virtualenv, run the following:
+ $ pipenv shell
+~~~
