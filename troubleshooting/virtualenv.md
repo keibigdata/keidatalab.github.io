@@ -64,3 +64,11 @@ New python executable in /home/kjhan/projectVirtualenv/projVirtualenv/bin/python
 Also creating executable in /home/kjhan/projectVirtualenv/projVirtualenv/bin/python
 Installing setuptools, pkg_resources, pip, wheel...done.
 ~~~
+kjhan@DataLX01:~/projectVirtualenv$ virtualenv -p /usr/bin/python3.5 projVirtualenv
+~~~
+Running virtualenv with interpreter /usr/bin/python3.5
+Using base prefix '/usr'
+New python executable in /home/kjhan/projectVirtualenv/projVirtualenv/bin/python3.5
+Not overwriting existing python script /home/kjhan/projectVirtualenv/projVirtualenv/bin/python (you must use /home/kjhan/projectVirtualenv/projVirtualenv/bin/python3.5)
+Installing setuptools, pkg_resources, pip, wheel...done.
+~~~
