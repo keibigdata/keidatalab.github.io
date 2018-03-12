@@ -1,5 +1,20 @@
 refers "https://slackapi.github.io/python-slackclient/"  
   
+  
+~~~
+condadmin@DataLX01:~/문서/API/Slack$ python -m pip install slackclient
+Collecting slackclient
+Requirement already satisfied: six<2.0a0,>=1.10 in /home/condadmin/anaconda3/lib/python3.6/site-packages (from slackclient)
+Requirement already satisfied: requests<3.0a0,>=2.11 in /home/condadmin/anaconda3/lib/python3.6/site-packages (from slackclient)
+Collecting websocket-client<1.0a0,>=0.35 (from slackclient)
+  Using cached websocket_client-0.47.0-py2.py3-none-any.whl
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in /home/condadmin/anaconda3/lib/python3.6/site-packages (from requests<3.0a0,>=2.11->slackclient)
+Requirement already satisfied: idna<2.7,>=2.5 in /home/condadmin/anaconda3/lib/python3.6/site-packages (from requests<3.0a0,>=2.11->slackclient)
+Requirement already satisfied: urllib3<1.23,>=1.21.1 in /home/condadmin/anaconda3/lib/python3.6/site-packages (from requests<3.0a0,>=2.11->slackclient)
+Requirement already satisfied: certifi>=2017.4.17 in /home/condadmin/anaconda3/lib/python3.6/site-packages (from requests<3.0a0,>=2.11->slackclient)
+Installing collected packages: websocket-client, slackclient
+Successfully installed slackclient-1.1.3 websocket-client-0.47.0
+~~~
 condadmin@DataLX01:~$ sudo pip install slackclient
 ~~~
 The directory '/home/condadmin/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
