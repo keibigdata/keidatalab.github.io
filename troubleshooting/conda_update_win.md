@@ -240,3 +240,84 @@ Attempting to roll back.
 
 ImportError("cannot import name 'universaldetector'",)
 ~~~
+C:\Users\WhoAreYou>conda update qt
+~~~
+Fetching package metadata ...............
+Solving package specifications: .
+
+Package plan for installation in environment D:\ProgramData\Anaconda3:
+
+The following NEW packages will be INSTALLED:
+
+    asn1crypto:    0.24.0-py35_0
+    certifi:       2018.1.18-py35_0
+    pysocks:       1.6.8-py35_0
+    sqlite:        3.22.0-h9d3ae62_0
+    urllib3:       1.22-py35h8cc84eb_0
+    vc:            14-h0510ff6_3
+    win_inet_pton: 1.0.1-py35hbef1270_1
+    wincertstore:  0.2-py35hfebbdb8_0
+    yaml:          0.1.7-hc54c509_2
+
+The following packages will be UPDATED:
+
+    cffi:          1.9.1-py36_0          --> 1.11.5-py35h945400d_0
+    chardet:       2.3.0-py36_0          --> 3.0.4-py35h177e1b7_1
+    colorama:      0.3.7-py36_0          --> 0.3.9-py35h32a752f_0
+    conda:         4.3.27-py36hcbae3bd_0 --> 4.4.11-py35_0
+    conda-env:     2.6.0-0               --> 2.6.0-h36134e3_1
+    cryptography:  1.7.1-py36_0          --> 2.0.3-py35h67a4558_1
+    icu:           57.1-vc14_0           --> 58.2-ha66f8fd_1
+    idna:          2.2-py36_0            --> 2.6-py35h8dcb9ae_1
+    libpng:        1.6.27-vc14_0         --> 1.6.34-h79bbb47_0
+    menuinst:      1.4.4-py36_0          --> 1.4.11-py35hfa6e2cd_0
+    pip:           9.0.1-py36_1          --> 9.0.1-py35_5
+    pyasn1:        0.1.9-py36_0          --> 0.4.2-py35hd2f34a6_0
+    pycosat:       0.6.1-py36_1          --> 0.6.3-py35h456c199_0
+    pycparser:     2.17-py36_0           --> 2.18-py35h15a15da_1
+    pyopenssl:     16.2.0-py36_0         --> 17.4.0-py35hc34edb9_0
+    pyparsing:     2.1.4-py36_0          --> 2.2.0-py35hcabcaab_1
+    pywin32:       220-py36_2            --> 222-py35hfa6e2cd_0
+    pyyaml:        3.12-py36_0           --> 3.12-py35h4bf9689_1
+    qt:            5.6.2-vc14_3          --> 5.6.2-vc14h6f8c307_12
+    requests:      2.12.4-py36_0         --> 2.18.4-py35h54a615f_1
+    ruamel_yaml:   0.11.14-py36_1        --> 0.15.35-py35hfa6e2cd_1
+    setuptools:    27.2.0-py36_1         --> 38.5.1-py35_0
+    six:           1.10.0-py36_0         --> 1.11.0-py35hc1da2df_1
+    wheel:         0.29.0-py36_0         --> 0.30.0-py35h38a90bc_1
+    zlib:          1.2.8-vc14_3          --> 1.2.11-h8395fce_2
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+    python:        3.6.0-0               --> 3.5.5-h0c2934d_0
+
+Proceed ([y]/n)? y
+
+menuinst-1.4.1 100% |###############################| Time: 0:00:00   6.33 MB/s
+python-3.5.5-h 100% |###############################| Time: 0:00:00  30.35 MB/s
+asn1crypto-0.2 100% |###############################| Time: 0:00:00  22.84 MB/s
+certifi-2018.1 100% |###############################| Time: 0:00:00  21.03 MB/s
+chardet-3.0.4- 100% |###############################| Time: 0:00:00  21.50 MB/s
+colorama-0.3.9 100% |###############################| Time: 0:00:00  11.88 MB/s
+idna-2.6-py35h 100% |###############################| Time: 0:00:00  21.07 MB/s
+pyasn1-0.4.2-p 100% |###############################| Time: 0:00:00  17.35 MB/s
+pycosat-0.6.3- 100% |###############################| Time: 0:00:00  17.38 MB/s
+pycparser-2.18 100% |###############################| Time: 0:00:00  19.37 MB/s
+pyparsing-2.2. 100% |###############################| Time: 0:00:00  16.41 MB/s
+pywin32-222-py 100% |###############################| Time: 0:00:00  32.90 MB/s
+pyyaml-3.12-py 100% |###############################| Time: 0:00:00  19.48 MB/s
+ruamel_yaml-0. 100% |###############################| Time: 0:00:00  29.33 MB/s
+six-1.11.0-py3 100% |###############################| Time: 0:00:00   7.28 MB/s
+win_inet_pton- 100% |###############################| Time: 0:00:00   1.87 MB/s
+wincertstore-0 100% |###############################| Time: 0:00:00   4.60 MB/s
+cffi-1.11.5-py 100% |###############################| Time: 0:00:00  24.42 MB/s
+pysocks-1.6.8- 100% |###############################| Time: 0:00:00   7.72 MB/s
+setuptools-38. 100% |###############################| Time: 0:00:00  31.18 MB/s
+cryptography-2 100% |###############################| Time: 0:00:00  30.65 MB/s
+wheel-0.30.0-p 100% |###############################| Time: 0:00:00  21.79 MB/s
+pip-9.0.1-py35 100% |###############################| Time: 0:00:00  37.24 MB/s
+pyopenssl-17.4 100% |###############################| Time: 0:00:00  15.95 MB/s
+urllib3-1.22-p 100% |###############################| Time: 0:00:00  22.71 MB/s
+requests-2.18. 100% |###############################| Time: 0:00:00  18.84 MB/s
+conda-4.4.11-p 100% |###############################| Time: 0:00:00  30.76 MB/s
+~~~
