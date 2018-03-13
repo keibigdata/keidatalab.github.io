@@ -231,5 +231,12 @@ The following packages will be SUPERSEDED by a higher-priority channel:
     wcwidth:                            0.1.7-py36_0          --> 0.1.7-py36h3d5aa90_0
     win_unicode_console:                0.5-py36_0            --> 0.5-py36hcdbd4b5_0
 
-Proceed ([y]/n)? y                                                                            
+Proceed ([y]/n)? y
+
+ERROR conda.core.link:_execute_actions(337): An error occurred while installing package 'defaults::qt-5.6.2-vc14h6f8c307_12'.
+ImportError("cannot import name 'universaldetector'",)
+Attempting to roll back.
+
+
+ImportError("cannot import name 'universaldetector'",)
 ~~~
