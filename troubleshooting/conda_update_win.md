@@ -1,4 +1,4 @@
-C:\Users\KEI>conda update --prefix D:\ProgramData\Anaconda3 anaconda
+C:\Users\WhoAreYou>conda update --prefix D:\ProgramData\Anaconda3 anaconda
 ~~~
 Fetching package metadata ...............
 Solving package specifications: .
